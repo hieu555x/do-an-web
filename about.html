@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spader Store | Hight-end Gaming Gear</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link
+    rel="stylesheet"
+    href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+  <script src="https://code.jquery.com/jquery-latest.js"></script>
+  <script language="javascript">
+    $(function () {
+      $("body").hover(
+        function () {
+          $(".header").css("background-image", "url(images/background.jpg)");
+          $(".header").css("transition", "1s");
+        },
+        function () {
+          $(".header").css("background-image", "url(images/background-1.jpg)");
+          $(".header").css("transition", "1s");
+        }
+      );
+    });
+  </script>
+</head>
+<body>
+  <div class="header">
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo.png" width="125px" /></a>
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a class="Items" href="index.html">Home</a></li>
+            <li><a class="Items" href="products.html">Products</a></li>
+            <li><a class="Items" href="about.html">About</a></li>
+            <li><a class="Items" href="contact.html">Contact</a></li>
+            <li><a class="Items" href="account.html">Account</a></li>
+          </ul>
+        </nav>
+        <a href="cart.html"
+          ><img src="images/cart.png" width="30px" height="30px"
+        /></a>
+        <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <p>
+            Spader Computer Joint Stock Company is one of the pioneering
+            companies in the field of Information Technology in Vietnam.
+            <br />
+            <br />
+            Referred to as “DER” or “SPADERGAMING”.
+            <br />
+            <br />
+            With a long-term vision, SPADERGAMING focuses on investing in
+            Information Technology. In the spirit of sustainable and
+            professional development, SPADERGAMING is structured with main
+            business products including:
+            <br />
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;1.Laptop & Accessories
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;2.Office computer
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;3.Game computer
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;4.Server, Workstation
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;5.Computer components
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;6.Monitor
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;7.Gaming Gear & Console
+            <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;8.And many more related...
+          </p>
+        </div>
+        <div class="col-2">
+          <img src="images/image1.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Download Our App</h3>
+          <p>Download App for Android and ios mobile phone</p>
+          <div class="app-logo">
+            <img src="images/play-store.png" />
+            <img src="images/app-store.png" />
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="images/logo-white.png" />
+          <p>
+            Our aim is to make the highest quality and genuine gaming gear
+            accessible to more people
+          </p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow us</h3>
+          <ul>
+            <li>Facebook</li>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+      </div>
+      <hr />
+      <p class="Copyright">Copyright 2020 - By Spader</p>
+    </div>
+  </div>
+</body>

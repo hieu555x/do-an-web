@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>All Products - SpaderStore</title>
+    <title>Razer Basilisk X Ultimate Wireless Black - SpaderStore</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
@@ -32,24 +32,58 @@
     </div>
     </div>
 
+    <!-- ---------- single Products detail ----------- -->
 
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images/gallery-17.jpg" width="100%" id="productImg">
+                
+                <div class="small-img-row">
+                    <div class="small-img-rol">
+                        <img src="images/gallery-17.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-rol">
+                        <img src="images/gallery-18.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-rol">
+                        <img src="images/gallery-19.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-rol">
+                        <img src="images/gallery-20.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
 
-    <div class="small-container">
-
-        <div class="row row-2">
-            <h2>All Products</h2>
-            <select>
-                <option>Default Shop</option>
-                <option>Short by price</option>
-                <option>Short by popularity</option>
-                <option>Short by Rating</option>
-                <option>Short by Sale</option>
-            </select>
+            </div>
+            <div class="col-2">
+                <p style="color:black;">Home / Mouse</p>
+                <h1 style="color:black;">Razer Basilisk X Ultimate Wireless Gaming Mouse Black</h1>
+                <h4>$50.00</h4>
+                    <input type="number" value="1">
+                    <a href="" class="btn">Add To Card</a>
+                    <h3>Product Detail
+                        <i class="fa fa-indent"></i>
+                    </h3>
+                    <br>
+                    <p style="color:black">25% faster than other current wireless technologies, you won't even realize you're gaming with a wireless mouse because of the smooth smoothness, ultra-low latency and the clarity you need. the environment where wireless connections overlap is dense as it is now.</p>
+            </div>
         </div>
+    </div>
 
+    <br><br>
+    <!-- ----- title------------- -->
+    <div class="small-container">
+        <div class="row row2">
+            <h2>Relate Products</h2>
+            <a href="products.html"><p>View More</p></a>
+        </div>
+    </div>
+
+<!-- ---------------Products----------------- -->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
         <div class="row">
             <div class="col-4">
-                <h4>Red Printed T-Shirt</h4>
                 <a href="products_detal_logitech_g903.html"><img src="images/product-1.jpg"></a>
                 <a href="products_detal_logitech_g903.html"><h4>Gaming Mouse  Logitech G903 Hero Lightspeed</h4></a>
                 <div class="rating">
@@ -97,6 +131,9 @@
                 </div>
                 <p>$50.00</p>
             </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
             <div class="col-4">
                 <a href="products_detal_razer_basilisk.html"><img src="images/product-5.jpg"></a>
                 <a href="products_detal_razer_basilisk.html"><h4>Razer Basilisk X Ultimate Wireless Black Gaming Mouse</h4></a>
@@ -257,6 +294,30 @@
                 else {
                     MenuItems.style.maxHeight = "0px";
                 }
+            }
+
+        </script>
+
+<!-- ------------------- JS for  product gallery------------------------         -->
+        <script>
+            var ProductImg = document.getElementById("productImg");
+            var SmallImg = document.getElementsByClassName("small-img");
+
+            SmallImg[0].onclick = function()
+            {
+                ProductImg.src = SmallImg[0].src;
+            }
+            SmallImg[1].onclick = function()
+            {
+                ProductImg.src = SmallImg[1].src;
+            }
+            SmallImg[2].onclick = function()
+            {
+                ProductImg.src = SmallImg[2].src;
+            }
+            SmallImg[3].onclick = function()
+            {
+                ProductImg.src = SmallImg[3].src;
             }
 
         </script>
